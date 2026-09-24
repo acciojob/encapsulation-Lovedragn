@@ -1,7 +1,11 @@
 package com.driver;
 
 public class Main {
-    RWOnly rw = new RWOnly();
-    rw.setname("sujith");
-    rw.getname();
+    public static void main(String args){
+
+        RWOnly rw = new RWOnly();
+        rw.setname("sujith");
+        System.out.println(rw.getname());
+    }
+    
 }
